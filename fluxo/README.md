@@ -10,14 +10,14 @@ git init
 ```
 para criar um novo repositório.
 
-### Obtenha um repositório existente
+### Obtendo um repositório existente
 
 Crie uma cópia de trabalho em um repositório local executando o comando
 ```
 git clone /caminho/para/o/repositório
 ```
 
-### Adicionar e confirmar
+### Adicionando e confirmando mudanças
 
 Você pode propor mudanças usando
 ```
@@ -35,20 +35,20 @@ git commit -m "descrição das alterações"
 ```
 Agora o arquivo é enviado para o HEAD, mas ainda não para o repositório remoto.
 
-### Enviando alterações
-
-Suas alterações agora estão no HEAD da sua cópia de trabalho local. Para enviar estas alterações ao seu repositório remoto, execute
-```
-git push origin master
-```
-
-### Atualizar e mesclar
+### Atualizando e mesclando
 
 Para atualizar seu repositório local com a mais nova versão, execute
 ```
 git pull
 ```
 na sua pasta de trabalho para obter e fazer merge (mesclar) alterações remotas.
+
+### Enviando alterações
+
+Suas alterações agora estão no HEAD da sua cópia de trabalho local. Para enviar estas alterações ao seu repositório remoto, execute
+```
+git push origin master
+```
 
 ___
 
@@ -58,6 +58,10 @@ ___
 
 
 ___
+
 ## Referências
 
 1 - [git - guia prático](https://rogerdudler.github.io/git-guide/index.pt_BR.html)
+
+2 - [git](https://git-scm.com/doc)
+
