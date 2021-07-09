@@ -50,6 +50,12 @@ git pull
 ```
 na sua pasta de trabalho para obter e fazer merge (mesclar) alterações remotas.
 
+___
+
+## Resumo de comandos git
+
+![](resume_git.png)
+
 
 ___
 ## Referências
