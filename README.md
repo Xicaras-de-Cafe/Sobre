@@ -2,7 +2,7 @@
 
 # Sobre
 
-Somos um grupo de amigos [escrever descrição]
+Somos um grupo de amigos [descrição]
 
 # Objetivo
 
@@ -10,7 +10,7 @@ Descrever objetivos...
 
 # Trabalhos
 
-Descrever trabalhos [repositórios]
+Descrever [sobre os repositórios]
 
 
 
