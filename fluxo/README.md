@@ -1,6 +1,6 @@
 # Fluxo de trabalho
 
-Guia prático 
+Guia prático de como colaborar
 
 ### Criando um novo repositório
 
@@ -8,8 +8,6 @@ Crie uma nova pasta, abra-a e execute o comando
 ```
 git init
 ```
-para criar um novo repositório.
-
 ### Obtendo um repositório existente
 
 Crie uma cópia de trabalho em um repositório local executando o comando
@@ -25,9 +23,8 @@ git add <nome do arquivo>
 ```
 ou
 ```
-git add *
+git add .
 ```
-Este é o primeiro passo no fluxo de trabalho do git. 
 
 Para realmente confirmar estas mudanças, use
 ```
@@ -37,15 +34,15 @@ Agora o arquivo é enviado para o HEAD, mas ainda não para o repositório remot
 
 ### Atualizando e mesclando
 
-Para atualizar seu repositório local com a mais nova versão, execute
+Para atualizar seu repositório local com a mais nova versão do repositório remoto, execute
 ```
 git pull
 ```
-na sua pasta de trabalho para obter e fazer merge (mesclar) alterações remotas.
+na sua pasta de trabalho para obter e mesclar (merge) as alterações remotas.
 
 ### Enviando alterações
 
-Suas alterações agora estão no HEAD da sua cópia de trabalho local. Para enviar estas alterações ao seu repositório remoto, execute
+Suas alterações agora estão no HEAD da sua cópia de trabalho local. Para enviar estas alterações ao repositório remoto, execute
 ```
 git push origin master
 ```
@@ -61,7 +58,9 @@ ___
 
 ## Referências
 
-1 - [git - guia prático](https://rogerdudler.github.io/git-guide/index.pt_BR.html)
+[GIT - guia prático](https://rogerdudler.github.io/git-guide/index.pt_BR.html)
 
-2 - [git](https://git-scm.com/doc)
+[GIT - documentação](https://git-scm.com/doc)
+
+[curso prático GIT e GITHUB](https://www.youtube.com/playlist?list=PLbEOwbQR9lqzK14I7OOeREEIE4k6rjgIj)
 
